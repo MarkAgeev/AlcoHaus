@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="menu__popUp">
+        <div class="menu__popUp__item">
+            <a class="menu__popUp__item__name item-name" href="#types">SHOP</a>
+            <a class="menu__popUp__item__name item-name" href="#">MEMBERSHIP</a>
+            <a class="menu__popUp__item__name item-name" href="#">OUR STORY</a>
+            <a class="menu__popUp__item__name item-name" href="#">NEWSLETTER</a>
+            <a class="menu__popUp__item__name item-name" href="#sectionSeventh">ACCOUNT</a>
+        </div>
+    </div>
+    <!-- alert -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <p class="alert__text">Free shipping on orders over $50</p>
+        <button type="button" class="btn-close alert__btn" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <!-- project -->
+    <div class="project">
+        <!-- header -->
+        <header class="header">
+            <div class="header__navbar">          
+                <ul class="header__navbar__list">
+                    <li class="header__navbar__list__item"><a class="header__navbar__item__name" href="#types">SHOP</a></li>
+                    <li class="header__navbar__list__item"><a class="header__navbar__item__name" href="#">MEMBERSHIP</a></li>
+                    <li class="header__navbar__list__item"><a class="header__navbar__item__name" href="#">OUR STORY</a></li>
+                    <a class="logo" href=""><img src="./svg/Vector.svg" alt=""></a>
+                    <li class="header__navbar__list__item"><a class="header__navbar__item__name" href="#">NEWSLETTER</a></li>                    
+                    <li class="header__navbar__list__item"><a class="header__navbar__item__name" href="#sectionSeventh">ACCOUNT</a></li>
+                    <li class="header__navbar__list__item"><a class="header__navbar__item__name cart" href="cart.html">CART (0)</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- navbar for 576-767px -->
+        <header class="header_small">
+            <div class="header_small__navbar">          
+            <ul class="header_small__navbar__list">
+                <li class="header_small__navbar__list__item"><a class="header_small__navbar__item__name menu" href="#" >MENU</a></li>
+                    <!-- <div class="menu__popUp"></div> -->
+                <a class="logo" href=""><img src="./svg/Vector.svg" alt=""></a>
+                <li class="header_small__navbar__list__item"><a class="header_small__navbar__item__name cart cart-small" href="cart.html">CART (0)</a></li>
+            </ul>
+            </div>
+        </header> 
+        <!-- main -->
+        <main class="main">
+            <!-- section-first -->
+            <section class="section-first">
+                <div class="section-first__wrapper wrapper">     
+                    <!-- section-first__left-wrapper -->
+                    <img class="section-first__background" src="./img/Background.png" alt="">   
+                    <!-- section-first__right-wrapper -->
+                    <div class="section-first__right-wrapper">
+                        <div class="section-first__right-wrapper__block">
+                            <h1 class="section-first__right-wrapper__block__title">Alcohol for the modern drinker</h1>
+                            <p class="section-first__right-wrapper__block__text">Light and refreshing flavors made with real, clean ingredients you can feel good about. Just pour, sip, and enjoy.</p>
+                            <a href="#types" class="btn section-first__right-wrapper__btn ">SHOP ALL</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- section-first for 576-767px -->
+                <div class="section-first__wrapper_small">
+                    <div class="section-first__wrapper_small__block">
+                        <h1 class="section-first__wrapper_small__block__title">Alcohol for the modern drinker</h1>
+                        <p class="section-first__wrapper_small__block__text">Light and refreshing flavors made with real, clean ingredients you can feel good about. Just pour, sip, and enjoy.</p>
+                        <button class="btn section-first__wrapper_small__block__btn">SHOP ALL</button>
+                    </div>
+                </div>
+                <!-- section-first__reviews -->
+                <div class="section-first__reviews">
+                    <div class="container__fluid">
+                        <div class="row review">
+                            <div class="review__brand">
+                                <p class="review__brand__text">"What makes Haus so special is its incredible flavors."</p>
+                                <img src="./img/Brand1.png" alt="">
+                            </div>
+                            <div class="review__brand">
+                                <p class="review__brand__text">“For the wine or cocktail lover who’s tried it all and wants something new and refreshing.”</p>
+                                <img src="./img/Brand2.png" alt="">
+                            </div>
+                            <div class="review__brand">
+                                <p class="review__brand__text">“Cleaner, responsibly sourced, and lower in alcohol.”</p>
+                                <img src="./img/Brand3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="hr hr__first">
+            <!-- section-second -->
+            <section class="section-second">
+                <div class="section-second__block">
+                    <h2 class="section-second__block__title">Made with natural ingredients, nothing fake</h2>
+                    <p class="section-second__block__text">Shop All Flavors</p>
+                </div>    
+                <div class="container__fluid goods">
+                    <!-- types -->
+                    <div class="section-second__types" id="types">
+                        <div class="section-second__types__type">
+                            <img src="./img/TheSamplerKit.png" alt="">
+                            <h2 class="section-second__types__type__type-name">The Sampler Kit</h2>
+                            <p class="section-second__types__type__type-text">Try a variety of Haus flavors with our customizable four-bottle kit. Each bottle serves 2-3 drinks.</p>
+                            <p class="section-second__types__type__type-cost">$39</p>
+                            <button class="section-second__types__type__type-btn btn btn-cost" data-articul="p9">SHOP NOW</button>
+                        </div>
+                        <div class="section-second__types__type">
+                            <img src="./img/GrapefruitJalapeno.png" alt="">
+                            <h2 class="section-second__types__type__type-name">Grapefruit Jalapeño</h2>
+                            <p class="section-second__types__type__type-text">Light and refreshing, this aperitif is a bright blend of citrus with a subtle kick of fresh jalapeño.</p>
+                            <p class="section-second__types__type__type-cost">$34</p>
+                            <button class="section-second__types__type__type-btn btn btn-cost" data-articul="p7">SHOP NOW</button>
+                        </div>
+                        <div class="section-second__types__type">
+                            <img src="./img/CitrusFlower.png" alt="">
+                            <h2 class="section-second__types__type__type-name">Citrus Flower</h2>
+                            <p class="section-second__types__type__type-text">A fresh Californian take on the apéritif. Made with crisp lemon and subtle elderflower.</p>
+                            <p class="section-second__types__type__type-cost">$31</p>
+                            <button class="section-second__types__type__type-btn btn btn-cost" data-articul="p6">SHOP NOW</button>
+                        </div>
+                        <div class="section-second__types__type">
+                            <img src="./img/StrawberryBasil.png" alt="">
+                            <h2 class="section-second__types__type__type-name">Strawberry Basil</h2>
+                            <p class="section-second__types__type__type-text">Even if there was no booze in this, it'd still be a delicious drink.</p>
+                            <p class="section-second__types__type__type-cost" >$36</p>
+                            <button class="section-second__types__type__type-btn btn btn-cost" data-articul="p5">SHOP NOW</button>
+                        </div>
+                        <div class="section-second__types__type">
+                            <img src="./img/PomegranateRosemary.png" alt="">
+                            <h2 class="section-second__types__type__type-name">Pomegranate Rosemary</h2>
+                            <p class="section-second__types__type__type-text">Sweet fruit and herbs are always a good combo.</p>
+                            <p class="section-second__types__type__type-cost">$33</p>
+                            <button class="section-second__types__type__type-btn btn btn-cost" data-articul="p4">SHOP NOW</button>
+                        </div>
+                        <div class="section-second__types__type">
+                            <img src="./img/SpicedCherry.png" alt="">
+                            <h2 class="section-second__types__type__type-name">Spiced Cherry</h2>
+                            <p class="section-second__types__type__type-text">If Haus made a bottled Manhattan, this would be it.</p>
+                            <p class="section-second__types__type__type-cost">$35</p>
+                            <button class="section-second__types__type__type-btn btn btn-cost" data-articul="p1">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- section-second for 576-767px -->
+                    <!-- carousell -->
+                <!-- <div class="section-second__types_small">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-item__type">
+                                    <img src="./img/TheSamplerKit.png" alt="">
+                                    <h2 class="section-second__types_small__name">The Sampler Kit</h2>
+                                    <p class="section-second__types_small__text">Try a variety of Haus flavors with our customizable four-bottle kit. Each bottle serves 2-3 drinks.</p>
+                                    <button class="section-second__types_small__btn btn">SHOP NOW</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-item__type">
+                                    <img src="./img/GrapefruitJalapeno.png" alt="">
+                                    <h2 class="section-second__types_small__name">Grapefruit Jalapeño</h2>
+                                    <p class="section-second__types_small__text">Light and refreshing, this aperitif is a bright blend of citrus with a subtle kick of fresh jalapeño.</p>
+                                    <button class="section-second__types_small__btn btn">SHOP NOW</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-item__type">
+                                    <img src="./img/CitrusFlower.png" alt="">
+                                    <h2 class="section-second__types_small__name">Citrus Flower</h2>
+                                    <p class="section-second__types_small__text">A fresh Californian take on the apéritif. Made with crisp lemon and subtle elderflower.</p>
+                                    <button class="section-second__types_small__btn btn">SHOP NOW</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <div class="carousel-item__type">
+                                    <img src="./img/StrawberryBasil.png" alt="">
+                                    <h2 class="section-second__types_small__name">Strawberry Basil</h2>
+                                    <p class="section-second__types_small__text">Even if there was no booze in this, it'd still be a delicious drink.</p>
+                                    <button class="section-second__types_small__btn btn">SHOP NOW</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-item__type">
+                                    <img src="./img/PomegranateRosemary.png" alt="">
+                                    <h2 class="section-second__types_small__name">Pomegranate Rosemary</h2>
+                                    <p class="section-second__types_small__text">Sweet fruit and herbs are always a good combo.</p>
+                                    <button class="section-second__types_small__btn btn">SHOP NOW</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-item__type">
+                                    <img src="./img/SpicedCherry.png" alt="">
+                                    <h2 class="section-second__types_small__name">Spiced Cherry</h2>
+                                    <p class="section-second__types_small__text">If Haus made a bottled Manhattan, this would be it.</p>
+                                    <button class="section-second__types_small__btn btn">SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>    -->                
+            </section>
+            <hr class="hr hr__second">
+            <!-- section-third -->
+            <section class="section-third">
+                <div class="container__fluid">
+                    <div class="section-third__background">
+                        <img src="./img/Background-2.png" alt="">
+                    </div>    
+                    <div class="section-third__block">
+                        <h3 class="section-third__block__title">An intro to apéritifs</h3>
+                        <p class="section-third__block__text">Apéritifs are a category of spirits with complex flavors derived from fruits, herbs, and botanicals. Their lighter alcohol content (less than whiskey, more than wine) makes them perfect to sip all evening.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- section-third for 567-767px -->
+            <section class="section-third_small">
+                <div class="section-third_small__background">
+                <div class="section-third_small__background_dark"></div>
+                <div class="section-third_small__block">
+                    <h3 class="section-third_small__block__title">An intro to apéritifs</h3>
+                    <p class="section-third_small__block__text">Apéritifs are a category of spirits with complex flavors derived from fruits, herbs, and botanicals. Their lighter alcohol content (less than whiskey, more than wine) makes them perfect to sip all evening.</p>
+                </div>
+                </div>
+            </section>
+            <hr class="hr hr__third">
+            <!-- section-fourth -->
+            <section class="section-fourth">
+                <div class="container__fluid">
+                    <div class="section-fourth__wrapper wrapper">
+                        <div class="section-fourth__block">
+                            <h4 class="section-fourth__block__title">Easy to drink</h4>
+                            <p class="section-fourth__block__text">The perfect anytime drink, sip Haus on its own or with simple mixers you probably already have like soda or tonic.</p>
+                            <h4 class="section-fourth__block__title">Natural ingredients. Nothing fake.</h4>
+                            <p class="section-fourth__block__text">Artificial ingredients and refined sugars are a big culprit in hangovers. Feel good about what’s in your glass that night — and the next day.</p>
+                            <h4 class="section-fourth__block__title">Delivered to your door</h4>
+                            <p class="section-fourth__block__text">We blend, bottle, and ship our products straight from Sonoma, CA to your doorstep.</p>
+                        </div>
+                        <img src="./img/Background-3.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- section-fourth for 768-991px -->
+            <section class="section-fourth_small">
+                <div class="section-fourth_small_dark"></div>
+                <div class="section-fourth_small__wrapper wrapper">
+                    <div class="section-fourth_small__wrapper__block">
+                        <h4 class="section-fourth_small__wrapper__block__title">Easy to drink</h4>
+                        <p class="section-fourth_small__wrapper__block__text">The perfect anytime drink, sip Haus on its own or with simple mixers you probably already have like soda or tonic.</p>
+                    </div>
+                    <div class="section-fourth_small__wrapper__block">
+                        <h4 class="section-fourth_small__wrapper__block__title_big">Natural ingredients. Nothing fake.</h4>
+                        <p class="section-fourth_small__wrapper__block__text">Artificial ingredients and refined sugars are a big culprit in hangovers. Feel good about what’s in your glass that night — and the next day.</p>
+                    </div>
+                    <div class="section-fourth_small__wrapper__block">
+                        <h4 class="section-fourth_small__wrapper__block__title">Delivered to your door</h4>
+                        <p class="section-fourth_small__wrapper__block__text_last">We blend, bottle, and ship our products straight from Sonoma, CA to your doorstep.</p>
+                    </div>
+                </div>
+            </section>
+            <hr class="hr hr__fourth">
+            <!-- section-fifth -->
+            <section class="section-fifth">
+                <div class="container__fluid">
+                    <div class="row">
+                        <div class="section-fifth__author">
+                            <p class="section-fifth__author__text">“Haus has found the solution I didn’t really know I was looking for!”</p>
+                            <p class="section-fifth__author__name">— Susan</p>
+                            <p class="section-fifth__author__company">Verified Buyer</p>
+                        </div>
+                        <div class="section-fifth__author">
+                            <p class="section-fifth__author__text">“I love the flavor of this apéritif — it’s light and lively, and it’s refreshing with seltzer or tonic.”</p>
+                            <p class="section-fifth__author__name">— Fiona</p>
+                            <p class="section-fifth__author__company">Verified Buyer</p>
+                        </div>
+                        <div class="section-fifth__author">
+                            <p class="section-fifth__author__text">“It’s delicious, and unique. I love everything from the packaging, to the flavors.”</p>
+                            <p class="section-fifth__author__name">— Esteban</p>
+                            <p class="section-fifth__author__company name-company ">Verified Buyer</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section-sixth -->
+            <section class="section-sixth">
+                <div class="container__fluid">
+                    <div class="section-sixth__wrapper wrapper">
+                        <img src="./img/Background-4.png" alt="">
+                        <div class="section-sixth__block">
+                            <h5 class="section-sixth__block__title">We do things differently than most producers</h5>
+                            <p class="section-sixth__block__text">Our flavors are derived from real fruits, herbs, and botanicals, not ingredients from a lab. We leave out the artificial ingredients and excess sugar, and tell you what’s inside. It’s a better way to drink.</p>
+                            <a class="section-sixth__block__link" href="#">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section-seventh -->
+            <section class="section-seventh" id="sectionSeventh">
+                <div class="container__fluid">
+                    <div class="section-seventh__block-first">
+                        <h6 class="section-seventh__block-first__title">Set the mood</h6>                        
+                        <p class="section-seventh__block-first__text">Curated playlists from Woody + Helena, plus some of our friends and favorite brands.</p>    
+                        <button class="section-seventh__block-first__btn btn">SPOTIFY</button>
+                    </div>
+                    <div class="section-seventh__block-second">
+                        <p class="section-seventh__block-second__text">Follow us, share us, drink Ha(us)</p>
+                        <div class="section-seventh__block-second__block-link">
+                            <a class="section-seventh__block-second__link" href="#">INSTAGRAM</a>
+                            <a class="section-seventh__block-second__link" href="#">TWITTER</a>
+                            <a class="section-seventh__block-second__link" href="#">FACEBOOK</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container__fluid">
+                <div class="row">
+                    <div class="footer__left-wrapper">
+                        <h6 class="footer__left-wrapper__title">Stay posted</h6>
+                        <p class="footer__left-wrapper__text">Let's be friends. Subscribe to our newsletter to receive updates on new launches, recipes, playlists, and more.</p>
+                        <form class="footer__left-wrapper__form form">
+                            <input class="footer__left-wrapper__form__mail email" type="email" name="mail" id="" placeholder="YOUR EMAIL ADDRESS">
+                            <input class="footer__left-wrapper__form__btn" type="submit" value="SUBMIT">
+                        </form>
+                    </div>
+                    <div class="footer__right-wrapper">
+                        <div class="footer__right-wrapper__column">
+                            <p class="footer__right-wrapper__column__text">EXPLORE</p>
+                            <div class="footer__right-wrapper__column__links">
+                                <a class="footer__right-wrapper__column__link" href="#">HOME</a>
+                                <a class="footer__right-wrapper__column__link" href="#">SHOP</a>
+                                <a class="footer__right-wrapper__column__link" href="#">MEMBERSHIP</a>
+                                <a class="footer__right-wrapper__column__link" href="#">OUR STORY</a>
+                                <a class="footer__right-wrapper__column__link" href="#">FAQ</a>
+                                <a class="footer__right-wrapper__column__link" href="#">REFER A FRIEND</a>
+                                <a class="footer__right-wrapper__column__link" href="#">CORPORATE GIFTING</a>
+                                <a class="footer__right-wrapper__column__link" href="#">GIFT CARD</a>  
+                            </div>
+                        </div>
+                        <div class="footer__right-wrapper__column">
+                            <p class="footer__right-wrapper__column__text">FOLLOW</p>
+                            <div class="footer__right-wrapper__column__links">
+                                <a class="footer__right-wrapper__column__link" href="https://www.instagram.com/">INSTAGRAM</a>
+                                <a class="footer__right-wrapper__column__link" href="#">SPOTIFY</a>
+                                <a class="footer__right-wrapper__column__link" href="#">TWITTER</a>
+                                <a class="footer__right-wrapper__column__link" href="#">FACEBOOK</a>  
+                            </div>
+                        </div>
+                        <div class="footer__right-wrapper__column">
+                            <p class="footer__right-wrapper__column__text">DROP US A LINE</p>
+                            <div class="footer__right-wrapper__column__links">
+                                <a class="footer__right-wrapper__column__link" href="#">hello@drink.haus</a>
+                                <a class="footer__right-wrapper__column__link" href="#">press@drink.haus</a>
+                                <a class="footer__right-wrapper__column__link" href="#">partnerships@drink.haus</a>
+                                <a class="footer__right-wrapper__column__link" href="#">jobs@drink.haus</a>
+                                <a class="footer__right-wrapper__column__link" href="#">wholesale@drink.haus</a>        
+                            </div>
+                        </div>    
+                    </div>    
+                </div>
+                <div class="footer__contact">
+                    <p class="footer__contact__text">© Haus 2021</p>
+                    <a class="footer__contact__link" href="#">Contact Us</a>
+                    <a class="footer__contact__link" href="#">Return Policy</a>
+                    <a class="footer__contact__link" href="#">Privacy Policy</a>
+                    <a class="footer__contact__link" href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/goods.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/form.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
